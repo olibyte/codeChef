@@ -7,7 +7,6 @@ let data = "";
 process.stdin.on('data', function(chunk) {
     data += chunk.toString();
 });
-
 process.stdin.on('end', function() {
     runTestCase();
 });
