@@ -7,7 +7,7 @@ short StoreInArray(char ar[],short n)
     do {
             ar[i++]=(char)n%10;
             n=n/10;
-        }while(n!=0);
+        } while(n!=0);
         ar[i]='\0';
         return i;
 }
